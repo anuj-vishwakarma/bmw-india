@@ -394,7 +394,7 @@ video {
     -webkit-text-stroke: 2px white;
     z-index: 9;
 }
-#page4 #hOne h1{
+#page4 h1{
     font-size: 50px;
 }
 #page4 #hOne:hover{
