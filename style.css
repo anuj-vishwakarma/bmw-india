@@ -372,12 +372,12 @@ video {
     scale: 1;
 }
 #page4 h1{
-    font-size: 70px;
+    font-size: 93px;
     position: absolute;
     top: 10%;
     font-weight: 900;
     color: black;
-    font-family: "Gillroy", sans-serif;
+    font-family: "Gilroy", sans-serif;
     -webkit-text-stroke: 2px white;
     z-index: 9;
 }
