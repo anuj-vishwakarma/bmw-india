@@ -11,6 +11,19 @@ html,body{
     height: 100%;
     width: 100%;
 }
+*::selection{
+    background-color: #17b4e0;
+    color: black;
+}
+body::-webkit-scrollbar{
+    display: block;
+    width: 7px;
+    background: linear-gradient(to bottom ,#14a4cb,rgb(0, 0, 0));
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #c9c9c9f4;
+    border-radius: 50px;
+}
 #cursor{
     height: 25px;
     width: 25px;
