@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb{
     position: fixed;
     z-index: 1;
     transition: all linear 0.1s;
-    z-index: 99;
+    z-index: 500;
 }
 #cursor-blur{
     height: 350px;
@@ -91,8 +91,10 @@ video {
 }
 #page1 h1{
     color: rgb(210, 210, 210);
-    font-size: 93px;
+    font-size: 120px;
     font-weight: 900;
+    
+    margin-top: 10%;
     position: relative;
 }
 
@@ -119,6 +121,30 @@ video {
     width: 50%;
     font-weight: 500;
     font-size: 20px;
+}
+#page1 #arrow{
+    height: 210px;
+    width: 14%;
+    background-color: transparent;
+    border: 2px solid;
+    position:absolute;
+    display: flex;
+    left: -2.5%;
+    bottom: -0.5%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+}
+#page1 #arrow i{
+    font-size: 50px;
+    font-weight: 100;
+
+}
+#page1 #arrow:hover{
+    scale: 0.4;
+    background-color: #17B4E0;
+    
 }
 #page2{
     min-height: 100vh;
@@ -148,7 +174,7 @@ video {
     display: inline-block;
     font-size: 100px;
     font-weight: 900;
-    font-family:'Questrial', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     margin-right: 10px;
     color: transparent;
     -webkit-text-stroke: 2px white;
@@ -385,7 +411,7 @@ video {
     scale: 1;
 }
 #page4 h1{
-    font-size: 80px;
+    font-size: 93px;
     position: absolute;
     top: 10%;
     font-weight: 900;
@@ -394,7 +420,6 @@ video {
     -webkit-text-stroke: 2px white;
     z-index: 9;
 }
-
 #page4 #hOne:hover{
     color: #ffffff;
     transition: all linear 0.8s;
