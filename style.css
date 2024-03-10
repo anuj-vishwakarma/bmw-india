@@ -148,6 +148,7 @@ video {
     display: inline-block;
     font-size: 100px;
     font-weight: 900;
+    font-family:'Questrial', sans-serif;
     margin-right: 10px;
     color: transparent;
     -webkit-text-stroke: 2px white;
